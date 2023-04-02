@@ -15,6 +15,8 @@ align-items: center;
     transform: rotate(180deg);
         animation: animation-logo infinite 1.3s linear;
 }
+
+
 .navbarMobile{
     display: flex;
     align-items: center;
@@ -36,8 +38,10 @@ height: 60px;
 display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px;
     width: 100%;
+    padding-left: 20px;
+    padding-right: 23px;
+
 }
 .imageM{
     background-color: #ffffff;
@@ -45,8 +49,36 @@ display: flex;
 .image{
    width: 400px;
    height: 250px;
+   animation: image-anime infinite 20s ;
    object-fit: cover;
+           background-size: cover;
+
 }
+}
+@keyframes image-anime {
+    10%{
+        background-image: url("../assets/images/Informatiqu.png");
+        object-fit: cover;
+                background-size: cover;
+
+    }
+    40%{
+        background-image: url("../assets/images/Developpeur.png");
+        object-fit: cover;
+        background-size: cover;
+    }
+    80%{
+        background-image: url("../assets/images/dev.png");
+        object-fit: cover;
+                background-size: cover;
+
+    }
+    100%{
+        background-image: url("../assets/images/devenir.png");
+        object-fit: cover;
+                background-size: cover;
+
+    }
 }
 
 .navcontainer{
@@ -87,8 +119,10 @@ display: flex;
 
 }
 .image{
-   
+   background: url("../assets/images/devenir.png");
    width: 100%;
+   animation: image-anime infinite 26s linear;
+           background-size: cover;
 
    height: 95vh;
 }

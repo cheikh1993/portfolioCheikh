@@ -6,10 +6,8 @@ const iconM = require("../assets/icons/menui.png")
 const NavBar = () => {
   return (
     <>
-        <img 
-        src={image}
+        <div 
     
-        alt="Image"
         className='image'
         />
         <div className="navbarMobile">
