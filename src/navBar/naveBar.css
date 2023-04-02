@@ -13,7 +13,7 @@ align-items: center;
     font-size: 1.2rem;
     font-weight: bold;
     transform: rotate(180deg);
-        animation: animation-logo infinite 1.3s linear;
+        animation: animation-logo infinite 5.3s linear;
 }
 
 
@@ -22,7 +22,7 @@ align-items: center;
     align-items: center;
     justify-content: space-between;
     margin-left: 10px;
-    width: 90%;
+    width: 100%;
     display: none;
 }
 @media screen and (max-width: 520px){
