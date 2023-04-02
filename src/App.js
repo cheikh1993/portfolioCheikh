@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className='App'>
       <NavBar />
-      <h2>Portfolio de Cheikh Faye </h2>
+      <h2>Cheikh Faye Talibe cheikh bi </h2>
     </div>
   )
 }
