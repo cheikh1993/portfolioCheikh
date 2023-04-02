@@ -8,6 +8,47 @@ display: flex;
 align-items: center;
 
 }
+.logoM{
+     color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transform: rotate(180deg);
+        animation: animation-logo infinite 1.3s linear;
+}
+.navbarMobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 90%;
+    display: none;
+}
+@media screen and (max-width: 520px){
+.navBar{
+    display: none;
+}
+.navbarMobile{
+     display: flex;
+     position: absolute;
+top: 0;
+background-color: #2B2261;
+height: 60px;
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+.imageM{
+    background-color: #ffffff;
+}
+.image{
+   width: 400px;
+   height: 250px;
+   object-fit: cover;
+}
+}
+
 .navcontainer{
     width: 100%;
     display: flex;
@@ -66,10 +107,7 @@ h4{
         color: aqua;
     }
 }
-.right{
- 
 
-}
 .buttoncaontainer{
     display: flex;
     align-items: center;

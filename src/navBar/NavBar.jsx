@@ -2,14 +2,26 @@ import React from 'react'
 import "../navBar/naveBar.css"
 
 const image = require("../assets/images/Informatiqu.png")
+const iconM = require("../assets/icons/menui.png")
 const NavBar = () => {
   return (
     <>
         <img 
         src={image}
+    
         alt="Image"
         className='image'
         />
+        <div className="navbarMobile">
+             <div className="logoM">
+                    <span>CH</span>
+                </div>
+            <img
+            className='imageM'
+
+            src={iconM}
+             />
+        </div>
     <div className='navBar'>
         <div className="navcontainer">
             <div className="left">
