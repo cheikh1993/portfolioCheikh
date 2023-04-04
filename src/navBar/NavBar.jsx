@@ -6,10 +6,9 @@ const iconM = require("../assets/icons/menui.png")
 const NavBar = () => {
   return (
     <>
-        <div 
-    
-        className='image'
-        />
+        
+{/* Affichage Mobile */}
+
         <div className="navbarMobile">
              <div className="logoM">
                     <span>CH</span>
@@ -20,8 +19,11 @@ const NavBar = () => {
             src={iconM}
              />
         </div>
-    <div className='navBar'>
-        <div className="navcontainer">
+{/* Affichage Mobile Fin */}
+
+
+    <div className='containerNavBar'>
+        <div className="navBar">
             <div className="left">
                 <div className="logo">
                     <span>CH</span>
@@ -44,6 +46,12 @@ const NavBar = () => {
                     </ul>
                 </div>
             </div>
+        </div>
+
+        <div className="presentationContainer">
+            <h2>Hi, I’m Cheikh Faye. Nice to meet you.</h2>
+
+            <span>I am a Full-Stack Developer who specializes in creating beautiful and efficient websites for small and large-scale companies. With a passion for the entire website development process, I work with my clients from concept to design and then development and launch.</span>
         </div>
         
     </div>
