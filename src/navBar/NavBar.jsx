@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../navBar/naveBar.css"
+import { icons } from '../constant'
 
 const image = require("../assets/images/Informatiqu.png")
 const iconM = require("../assets/icons/menui.png")
 const NavBar = () => {
+   
   return (
     <>
         
@@ -26,33 +28,42 @@ const NavBar = () => {
         <div className="navBar">
             <div className="left">
                 <div className="logo">
-                    <span>CH</span>
+                   <img src={icons.logo} />
                 </div>
                     <h4>Cheikh Faye</h4>
             </div>
             <div className="right">
                 <div className="buttoncaontainer">
                     <ul>
-                        <li><a href="#">About</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Home</a></li>
                     </ul>
                     <ul>
                         <li><a href="#">Competences</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#">A propos</a></li>
                     </ul>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div className="iconContainer">
+                <div className="iconItem">
+                    <img alt='icon' src={icons.github} />
+                </div>
+                <div className="iconItem">
+                    <img alt='icon' src={icons.facebook} />
+                </div>
+                <div className="iconItem">
+                    <img alt='icon' src={icons.twitter} />
+                </div>
+                <div className="iconItem">
+                    <img alt='icon' src={icons.linkedin} />
                 </div>
             </div>
         </div>
 
-        <div className="presentationContainer">
-            <h2>Hi, I’m Cheikh Faye. Nice to meet you.</h2>
-
-            <span>I am a Full-Stack Developer who specializes in creating beautiful and efficient websites for small and large-scale companies. With a passion for the entire website development process, I work with my clients from concept to design and then development and launch.</span>
-        </div>
         
     </div>
     </>
