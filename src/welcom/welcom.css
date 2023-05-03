@@ -1,4 +1,69 @@
 .Welcom{
+    width: 90%;
+    margin-top: 60px;
+    padding: 12px;
+    background: #eaecf0;
+}
+.welcomContainer{
+    display: flex;
+}
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.2rem;
+}
+.descriptionContainer h2{
+    width: 50%;
+    font-size: 2.5rem;
+    line-height: 43px;
+    word-spacing: 3px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+.descriptionContainer p{
+    width: 50%;
+    font-size: 1.1rem;
+    text-align: left;
+    color: gray;
+    margin-bottom: 10px;
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.descriptionContainer button{
+    width: 25%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+}
+.descriptionContainer button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 4px;
+    background-color: red;
+    margin-bottom: 10px ;
+}
+.profilContainer{
+    display: flex;
+}
+.profilContainer img{
     width: 80%;
-    background: red;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 80px;
+    box-shadow: grey 2px 2px 2px 2px, #000 4px 4px 4px 4px, tomato 8px 8px 8px 8px;
 }
