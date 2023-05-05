@@ -2,8 +2,7 @@ import React, { useEffect } from 'react'
 import "../navBar/naveBar.css"
 import { icons } from '../constant'
 
-const image = require("../assets/images/Informatiqu.png")
-const iconM = require("../assets/icons/menui.png")
+
 const NavBar = () => {
    
   return (
@@ -15,11 +14,7 @@ const NavBar = () => {
              <div className="logoM">
                     <span>CH</span>
                 </div>
-            <img
-            className='imageM'
-
-            src={iconM}
-             />
+            
         </div>
 {/* Affichage Mobile Fin */}
 
