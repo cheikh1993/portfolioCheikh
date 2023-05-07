@@ -55,6 +55,43 @@ export const data = [
         logo: icons.mui,
         cat: "framwork"
     },
+    {
+        id: 6,
+        label: "redux",
+        exp: 2,
+        capacity: 312,
+        comment: "Mes 3 ans d'exprience dans ce langage m'a beaucoup permis de maitriser les conceptes de ce dernier",
+        logo: icons.redux,
+        cat: "framwork"
+    },
+    {
+        id: 7,
+        label: "nodejs",
+        exp: 3,
+        capacity: 409,
+        comment: "Mes 3 ans d'exprience dans ce langage m'a beaucoup permis de maitriser les conceptes de ce dernier",
+        logo: icons.nodejs,
+        cat: "framwork"
+    },
+    {
+        id: 8,
+        label: "mysql",
+        exp: 4,
+        capacity: 350,
+        comment: "Mes 3 ans d'exprience dans ce langage m'a beaucoup permis de maitriser les conceptes de ce dernier",
+        logo: icons.mysql,
+        cat: "framwork"
+    },
+    {
+        id: 9,
+        label: "MongoDb",
+        exp: 3,
+        capacity:310,
+        comment: "Mes 3 ans d'exprience dans ce langage m'a beaucoup permis de maitriser les conceptes de ce dernier",
+        logo: icons.mongodb,
+        cat: "framwork"
+    },
+   
 
 
 ]

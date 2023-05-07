@@ -127,6 +127,98 @@ padding: 12px;
 .rightcontainer {
     flex: 3;
     background: #f8f9fa;
+}
+.headercontainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+        padding: 12px;
+
+}
+.headercontainer h2{
+}
+.iconcontainer{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 6px;
+    background: #d8d9db;
+    border-radius: 20px;
+}
+.iconcontainer img{
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+}
+.rightcontainer p{
+    width: 90%;
+    text-align: justify;
+    line-height: 25px;
+        padding: 12px;
+
+}
+.experiencecontainer{
+    padding: 12px;
+}
+.experience{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.experience img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.levelcontainer{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.levelcontainer h5{
+font-size: 1.1rem;
+font-weight: bold;
+text-transform: capitalize;
+}
+.levelcontainer span{
+    padding: 10px;
+    font-size: 0.7rem;
+    background: #d8d9db8a;
+    border-radius: 20px;
+}
+.timecontainer{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.timecontainer img{ 
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
     
 
+}
+.linh{
+    height: 20px;
+    width: 1.3px;
+    background-color: #9095a0;
+}
+.containertime{
+    display: flex;
+    gap: 20px;
+}
+.descontainer{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.descontainer button{
+    border: none;
+    background: none;
+    font-size: 1rem;
+    color: #9095a0;
+}
+.descontainer p{
+    font-size: 0.9rem;
 }

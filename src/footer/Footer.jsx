@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import "./footer.css"
-import { icons, images } from '../constant'
+
 import { data } from '../dummydata'
 
-const Detail = ({ detail, setShow }) => {
+const Detail = ({ detail, setShow,data,index }) => {
     function handclick() {
         setShow(null)
     }
     const NUMBER = 450;
     const calcul = detail.capacity * 100 / NUMBER
     return (
-        <div className='Detail'>
+        <div className='Detail' style={{ right: index === data.length - 1 || index === data.length - 2  ? 30 : null}} >
             <span onClick={handclick}>X</span>
             <h1 style={{ fontSize: 184 / detail.cat.length, color: "tomato" }}>{detail.cat}</h1>
             <div className="descriptionc">
@@ -53,7 +53,7 @@ const Footer = ({show, setShow}) => {
                             <img src={item.logo} alt='icon' />
 
                             {
-                                show == item.id && <Detail detail={detail} setShow={setShow} />
+                                show === item.id && <Detail detail={detail} setShow={setShow} data={data} index={index}/>
                             }
                         </div>
 

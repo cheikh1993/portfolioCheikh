@@ -9,12 +9,13 @@
     align-items: center;
     justify-content: center;
     bottom: 0;
-
+    padding: 10px;
 
 }
 
 .itemContainer {
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -23,9 +24,7 @@
 }
 
 .itemContainer .item {
-    padding: 5px;
-    border-radius: 20px;
-    background: #eae9e9;
+   flex: 1;
         transition: .25s ease-in-out;
    animation:  animitem 1s linear;
 
@@ -54,10 +53,11 @@
 }
 
 .item img {
-    width: 40px;
-    height: 40px;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
     border-radius: 50px;
+    background-size: cover;
 
 }
 
@@ -137,11 +137,15 @@
 }
 
 .techno {
-
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+}
+.techno img{
+    width: 20%;
+    height: 20%;
 }
 
 @keyframes animdetail {
