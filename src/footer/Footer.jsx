@@ -9,7 +9,6 @@ const Detail = ({ detail, setShow }) => {
     }
     const NUMBER = 450;
     const calcul = detail.capacity * 100 / NUMBER
-    console.log(Math.floor(calcul));
     return (
         <div className='Detail'>
             <span onClick={handclick}>X</span>
@@ -37,8 +36,7 @@ const Detail = ({ detail, setShow }) => {
         </div>
     )
 }
-const Footer = () => {
-    const [show, setShow] = useState(null)
+const Footer = ({show, setShow}) => {
     const [detail, setDetail] = useState([])
     const handlover = (id) => {
         setShow(id)

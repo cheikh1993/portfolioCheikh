@@ -154,6 +154,7 @@ h4{
 }
 ul{
     list-style-type: none;
+    position: relative;
 }
 
 li{
@@ -161,14 +162,16 @@ font-size: .9em;
 font-weight: 600;
 padding: 10px;
 border-radius: 10px;
-transition: 2s ease-in-out
+transition: .25s ease;
+cursor: pointer;
+letter-spacing: 1px;
+
 }
 li:hover{
-    font-weight: bold;
+    transform: scale(1.1);
 }
 a:hover{
    color: #000;
-   text-decoration: underline;
        transform: scale(1.1);
 
 }
@@ -178,4 +181,27 @@ a{
     text-transform: capitalize;
     color: black;
 
+}
+.active{
+   
+}
+.active::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: tomato;
+}
+.pending{}
+.pending::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: teal;
+    
 }

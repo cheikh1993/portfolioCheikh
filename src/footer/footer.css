@@ -1,9 +1,16 @@
 .Footer {
     width: 100%;
-    padding: 10px;
-    background-color: #f8fcff;
+    background-color: transparent;
+    margin-top: -20px;
+    padding: 10px 0;
+    z-index: 2;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     bottom: 0;
+
+
 }
 
 .itemContainer {
@@ -12,27 +19,45 @@
     justify-content: center;
     gap: 20px;
     cursor: pointer;
-}
-
-.item {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    border: 1px solid #555b6d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 }
-.descriptionc{
+
+.itemContainer .item {
+    padding: 5px;
+    border-radius: 20px;
+    background: #eae9e9;
+        transition: .25s ease-in-out;
+   animation:  animitem 1s linear;
+
+
+}
+
+
+@keyframes animitem{
+     0% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+
+  85% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.descriptionc {
     padding: 10px;
     margin-top: 7px;
 
 }
+
 .item img {
     width: 40px;
     height: 40px;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 50px;
 
 }
 
@@ -64,21 +89,24 @@
     font-weight: bold;
     text-transform: uppercase;
 }
-.competContainer{
-   display: flex;
-   align-items: center;
-   gap: 10px;
-   justify-content: space-between;
+
+.competContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
 }
-.compet{
-   flex: 1;
-     position: relative;
+
+.compet {
+    flex: 1;
+    position: relative;
     height: 18px;
     background: #dddddc;
     border-radius: 10px;
-    
+
 }
-.pourcentage{
+
+.pourcentage {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -88,29 +116,34 @@
     width: 100%;
     animation: animwidth 2s ease;
 }
-.line{
+
+.line {
     width: 100%;
     height: 1px;
     margin-top: 10px;
     background-color: lightgrey;
     border-radius: 10px;
-    animation: animwidth  2s ease-in-out;
+    animation: animwidth 2s ease-in-out;
 }
-@keyframes animwidth{
-    from{
+
+@keyframes animwidth {
+    from {
         width: 0;
     }
-    to{
+
+    to {
         width: 100%;
     }
 }
-.techno{
-    
+
+.techno {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
+
 @keyframes animdetail {
     from {
         opacity: 0;

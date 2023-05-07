@@ -9,6 +9,9 @@ const javascrypt = require("../assets/images/javascrypt.jpg")
 const react = require("../assets/images/react.png")
 const sass = require("../assets/images/sass.png")
 const mui = require("../assets/images/mui.png")
+const add = require("../assets/icons/add.png")
+const email = require("../assets/icons/email.png")
+const phone = require("../assets/icons/phone.png")
 
 
 export default {
@@ -18,6 +21,9 @@ export default {
     linkedin,
     logo,
     html,
+    add,
+    email,
+    phone,
     css,
     javascrypt,
     react,

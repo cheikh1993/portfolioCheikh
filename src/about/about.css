@@ -1,0 +1,132 @@
+.About {
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+
+
+}
+
+.aboutContainer {
+    width: 90%;
+    display: flex;
+    gap: 8px;
+
+}
+
+.leftcontainer {
+    flex: 1;
+    background-color: #f8f9fa;
+    
+}
+.profilcontainer{
+    padding: 12px;
+}
+.imgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgcontainer img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+    background: #9095a0;
+}
+.profilcontainer .profilitem{
+     display: grid;
+  gap: 7px;
+  align-items: center;
+  justify-items: center;
+
+}
+.profilitem p {
+    text-align: justify;
+    width: 90%;
+    margin-bottom: 4px;
+
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4px;
+}
+.skills .item{
+    padding: 4px;
+    border-radius: 10px;
+    background: #eae9e9;
+}
+.item span{
+    font-size: .8rem;
+    text-transform: capitalize;
+}
+.lines{
+    height: 6px;
+    background: #fff;
+    width: 100%;
+
+}
+.profilink{
+    padding: 10px;
+}
+.profilcontainer h3{
+    margin-top: 10px;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.linkcontainer{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 10px   ;
+}
+.linkcontainer input{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #f6f3f3;
+}
+.linkcontainer img {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    cursor: pointer;
+}
+.contactcontainer{   padding: 10px;
+}
+.itemcontact{
+    display: flex;
+    align-items: center;
+    gap: 4px ;
+    margin-top: 12px;
+}
+.itemcontact img{
+    width: 23px;
+    height: 23px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.jobcontainer{
+padding: 12px;
+}
+.jobcontainer img{
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+}
+.jobcontainer button {
+    width: 100%;
+    margin-top: 10px;
+}
+.rightcontainer {
+    flex: 3;
+    background: #f8f9fa;
+    
+
+}
